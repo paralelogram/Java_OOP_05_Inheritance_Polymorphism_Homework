@@ -1,6 +1,6 @@
 public abstract class Bird {
-    protected boolean feathers;
-    protected boolean layEggs;
+    protected boolean feathers = true;
+    protected boolean layEggs = true;
     protected abstract boolean canFly();
 
     public void setFeathers(boolean feathers) {
