@@ -12,18 +12,5 @@ public abstract class Bird {
     }
 }
 
-abstract class FlyingBird extends Bird {
-    @Override
-    protected boolean canFly() {
-        return true;
-    }
 
-}
-
-abstract class NonFlyingBird extends Bird {
-    @Override
-    protected boolean canFly() {
-        return false;
-    }
-}
 
